@@ -1,0 +1,13 @@
+input = First@*StringCases[
+    a__ ~~ "-" ~~ b__ ~~ " " ~~ c_ ~~ ": " ~~ d__ :>
+    {ToExpression@a, ToExpression@b, c, d}
+] /@ ReadList["~/code/misc/polyaoc-2020/02/input", String];
+
+(* part 1 *)
+Print@Count[input, {a_, b_, c_, d_} /; a <= StringCount[d, c] <= b];
+
+(* part 2 *)
+Print@Count[input, {a_, b_, c_, d_} /; Count[StringTake[d, {{a}, {b}}], c] == 1];
+
+(* vim: ft=mma
+*)
