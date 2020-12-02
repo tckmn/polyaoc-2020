@@ -13,6 +13,7 @@ int main() {
     FILE *fp = fopen("input", "r");
     int input[500], i = 0, val;
     while (fscanf(fp, "%d", &val) > 0) input[i++] = val;
+    fclose(fp);
 
     // part 1
     printf("%d\n", try(input, i, 0, 2, 0));
