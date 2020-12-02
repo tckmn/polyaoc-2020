@@ -1,7 +1,7 @@
-input = ReadList@"input"
+input = ReadList@"input";
 
 (* both parts *)
-Print[Times @@ SelectFirst[Subsets[input, {#}], EqualTo[2020]@*Total]] & /@ {2, 3}
+Print[Times @@ SelectFirst[Subsets[input, {#}], EqualTo[2020]@*Total]] & /@ {2, 3};
 
 (* vim: ft=mma
 *)
