@@ -4,7 +4,7 @@ from functools import reduce
 import itertools
 import operator
 
-input = map(int, open('input').readlines())
+data = map(int, open('input').readlines())
 
 # both parts
 for n in [2, 3]:
