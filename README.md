@@ -4,6 +4,7 @@
 | -  | -        | -         | -         | -          | -         | -         |
 | 01 | [✓][01c] | [✓][01hs] | [✓][01js] | [✓][01mma] | [✓][01py] | [✓][01rb] |
 | 02 | [✓][02c] | [✓][02hs] |           | [✓][02mma] | [✓][02py] | [✓][02rb] |
+| 03 |          |           |           |            |           | [✓][02rb] |
 
 [01c]:   https://github.com/tckmn/polyaoc-2019/tree/master/01/c
 [01hs]:  https://github.com/tckmn/polyaoc-2019/tree/master/01/hs
@@ -16,3 +17,4 @@
 [02mma]: https://github.com/tckmn/polyaoc-2019/tree/master/02/mma
 [02py]:  https://github.com/tckmn/polyaoc-2019/tree/master/02/py
 [02rb]:  https://github.com/tckmn/polyaoc-2019/tree/master/02/rb
+[03rb]:  https://github.com/tckmn/polyaoc-2019/tree/master/03/rb
