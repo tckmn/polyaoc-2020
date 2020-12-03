@@ -7,7 +7,7 @@ def go dx, dy = 1
 end
 
 # part 1
-p go 2
+p go 3
 
 # part 2
 p [1, 3, 5, 7, [1, 2]].map{|a| go *a}.inject :*
