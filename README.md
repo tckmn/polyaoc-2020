@@ -1,11 +1,22 @@
-(these languages are, in order: x64 assembly, C, Haskell, Julia, JavaScript, Mathematica, Python, Ruby, Rust)
+(these languages are, in order: x64 assembly, C, Haskell, Julia, JavaScript, Jelly, Mathematica, Python, Ruby, Rust, bash)
 
-|    | asm        | c        | hs        | jl        | js        | mma        | py        | rb        | rs        |
-| -  | -          | -        | -         | -         | -         | -          | -         | -         | -         |
-| 01 |            | [✓][01c] | [✓][01hs] |           | [✓][01js] | [✓][01mma] | [✓][01py] | [✓][01rb] |           |
-| 02 |            | [✓][02c] | [✓][02hs] |           |           | [✓][02mma] | [✓][02py] | [✓][02rb] |           |
-| 03 | [✓][03asm] |          | [✓][03hs] | [✓][03jl] |           |            |           | [✓][03rb] | [✓][03rs] |
-| 04 |            |          |           |           |           |            |           | [✓][04rb] |           |
+|    | asm        | c        | hs        | jl        | js        | jy        | mma        | py        | rb        | rs        | sh        | vim        |
+| -  | -          | -        | -         | -         | -         | -         | -          | -         | -         | -         | -         | -          |
+| 01 |            | [✓][01c] | [✓][01hs] |           | [✓][01js] |           | [✓][01mma] | [✓][01py] | [✓][01rb] |           |           |            |
+| 02 |            | [✓][02c] | [✓][02hs] |           |           |           | [✓][02mma] | [✓][02py] | [✓][02rb] |           |           |            |
+| 03 | [✓][03asm] |          | [✓][03hs] | [✓][03jl] |           |           |            |           | [✓][03rb] | [✓][03rs] |           |            |
+| 04 |            |          |           |           |           |           |            |           | [✓][04rb] |           |           |            |
+| 05 |            |          | [✓][05hs] |           |           | [✓][05jy] |            |           | [✓][05rb] |           | [✓][05sh] | [✓][05vim] |
+
+how to run the programs:
+
+ * for jy, run `jelly fun jy/##.jy "$(<input)"`
+ * for mma, paste into a notebook with the appropriate working directory
+ * for vim, run `vim -u NONE '+so vim/##.vim'`
+ * for asm, c, and rs, compile with `gcc`, `gcc` or `rustc` respectively, then run the resulting executable
+ * for everything else, the files are executable; just run `lang/##.ext`
+
+note that everything expects to be run from the directory containing `input`
 
 [01c]:   https://github.com/tckmn/polyaoc-2020/tree/master/01/c
 [01hs]:  https://github.com/tckmn/polyaoc-2020/tree/master/01/hs
@@ -24,3 +35,8 @@
 [03rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/03/rb
 [03rs]:  https://github.com/tckmn/polyaoc-2020/tree/master/03/rs
 [04rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/04/rb
+[05hs]:  https://github.com/tckmn/polyaoc-2020/tree/master/05/hs
+[05jy]:  https://github.com/tckmn/polyaoc-2020/tree/master/05/jy
+[05rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/05/rb
+[05sh]:  https://github.com/tckmn/polyaoc-2020/tree/master/05/sh
+[05vim]: https://github.com/tckmn/polyaoc-2020/tree/master/05/vim
