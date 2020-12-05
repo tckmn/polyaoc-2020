@@ -14,6 +14,6 @@ part2 = length . filter part2'
     where part2' (a, b, ch, pwd) = (pwd !! pred a == ch) /= (pwd !! pred b == ch)
 
 main = do
-    input <- map parse <$> lines <$> readFile "input"
+    input <- map parse . lines <$> readFile "input"
     putStrLn . show $ part1 input
     putStrLn . show $ part2 input
