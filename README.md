@@ -1,13 +1,13 @@
-(these languages are, in order: x64 assembly, C, Haskell, Julia, JavaScript, Jelly, Mathematica, Python, Ruby, Rust, bash)
+(these languages are, in order: x64 assembly, C, Haskell, J, Julia, JavaScript, Jelly, Mathematica, Python, Ruby, Rust, bash)
 
-|    | asm        | c        | hs        | jl        | js        | jy        | mma        | py        | rb        | rs        | sh        | vim        |
-| -  | -          | -        | -         | -         | -         | -         | -          | -         | -         | -         | -         | -          |
-| 01 |            | [✓][01c] | [✓][01hs] |           | [✓][01js] |           | [✓][01mma] | [✓][01py] | [✓][01rb] |           |           |            |
-| 02 |            | [✓][02c] | [✓][02hs] |           |           |           | [✓][02mma] | [✓][02py] | [✓][02rb] |           |           |            |
-| 03 | [✓][03asm] |          | [✓][03hs] | [✓][03jl] |           |           |            |           | [✓][03rb] | [✓][03rs] |           |            |
-| 04 |            |          |           |           |           |           |            |           | [✓][04rb] |           |           |            |
-| 05 |            | [✓][05c] | [✓][05hs] |           |           | [✓][05jy] |            |           | [✓][05rb] |           | [✓][05sh] | [✓][05vim] |
-| 06 |            |          | [✓][06hs] |           |           |           |            |           | [✓][06rb] |           |           |            |
+|    | asm        | c        | hs        | ijs        | jl        | js        | jy        | mma        | py        | rb        | rs        | sh        | vim        |
+| -  | -          | -        | -         | -          | -         | -         | -         | -          | -         | -         | -         | -         | -          |
+| 01 |            | [✓][01c] | [✓][01hs] |            |           | [✓][01js] |           | [✓][01mma] | [✓][01py] | [✓][01rb] |           |           |            |
+| 02 |            | [✓][02c] | [✓][02hs] |            |           |           |           | [✓][02mma] | [✓][02py] | [✓][02rb] |           |           |            |
+| 03 | [✓][03asm] |          | [✓][03hs] |            | [✓][03jl] |           |           |            |           | [✓][03rb] | [✓][03rs] |           |            |
+| 04 |            |          |           |            |           |           |           |            |           | [✓][04rb] |           |           |            |
+| 05 |            | [✓][05c] | [✓][05hs] |            |           |           | [✓][05jy] |            |           | [✓][05rb] |           | [✓][05sh] | [✓][05vim] |
+| 06 |            |          | [✓][06hs] | [✓][06ijs] |           |           |           |            |           | [✓][06rb] |           |           |            |
 
 how to run the programs:
 
@@ -43,4 +43,5 @@ note that everything expects to be run from the directory containing `input`
 [05sh]:  https://github.com/tckmn/polyaoc-2020/tree/master/05/sh
 [05vim]: https://github.com/tckmn/polyaoc-2020/tree/master/05/vim
 [06hs]:  https://github.com/tckmn/polyaoc-2020/tree/master/06/hs
+[06ijs]: https://github.com/tckmn/polyaoc-2020/tree/master/06/ijs
 [06rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/06/rb
