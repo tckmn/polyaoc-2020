@@ -7,6 +7,7 @@
 | 03 | [✓][03asm] |          | [✓][03hs] | [✓][03jl] |           |           |            |           | [✓][03rb] | [✓][03rs] |           |            |
 | 04 |            |          |           |           |           |           |            |           | [✓][04rb] |           |           |            |
 | 05 |            | [✓][05c] | [✓][05hs] |           |           | [✓][05jy] |            |           | [✓][05rb] |           | [✓][05sh] | [✓][05vim] |
+| 06 |            |          | [✓][06hs] |           |           |           |            |           | [✓][06rb] |           |           |            |
 
 how to run the programs:
 
@@ -41,3 +42,5 @@ note that everything expects to be run from the directory containing `input`
 [05rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/05/rb
 [05sh]:  https://github.com/tckmn/polyaoc-2020/tree/master/05/sh
 [05vim]: https://github.com/tckmn/polyaoc-2020/tree/master/05/vim
+[06hs]:  https://github.com/tckmn/polyaoc-2020/tree/master/06/hs
+[06rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/06/rb
