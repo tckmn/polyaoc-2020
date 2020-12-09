@@ -1,4 +1,4 @@
-(these languages are, in order: x64 assembly, C, Haskell, J, Julia, JavaScript, Jelly, Mathematica, Python, Ruby, Rust, bash)
+(these languages are, in order: x64 assembly, C, Haskell, J, Julia, JavaScript, Jelly, Mathematica, Python, Ruby, Racket, Rust, bash, vim)
 
 |    | asm        | c        | hs        | ijs        | jl        | js        | jy        | mma        | py        | rb        | rkt        | rs        | sh        | vim        |
 | -  | -          | -        | -         | -          | -         | -         | -         | -          | -         | -         | -          | -         | -         | -          |
