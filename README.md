@@ -1,16 +1,16 @@
 (these languages are, in order: x64 assembly, C, Haskell, J, Julia, JavaScript, Jelly, Mathematica, Python, Ruby, Rust, bash)
 
-|    | asm        | c        | hs        | ijs        | jl        | js        | jy        | mma        | py        | rb        | rs        | sh        | vim        |
-| -  | -          | -        | -         | -          | -         | -         | -         | -          | -         | -         | -         | -         | -          |
-| 01 |            | [✓][01c] | [✓][01hs] |            |           | [✓][01js] |           | [✓][01mma] | [✓][01py] | [✓][01rb] |           |           |            |
-| 02 |            | [✓][02c] | [✓][02hs] |            |           |           |           | [✓][02mma] | [✓][02py] | [✓][02rb] |           |           |            |
-| 03 | [✓][03asm] |          | [✓][03hs] |            | [✓][03jl] |           |           |            |           | [✓][03rb] | [✓][03rs] |           |            |
-| 04 |            |          |           |            |           |           |           |            |           | [✓][04rb] |           |           |            |
-| 05 |            | [✓][05c] | [✓][05hs] |            |           |           | [✓][05jy] |            |           | [✓][05rb] |           | [✓][05sh] | [✓][05vim] |
-| 06 |            |          | [✓][06hs] | [✓][06ijs] |           |           |           |            |           | [✓][06rb] |           |           |            |
-| 07 |            |          |           |            |           |           |           |            |           | [✓][07rb] |           |           |            |
-| 08 |            |          | [✓][08hs] |            |           |           |           |            |           | [✓][08rb] |           |           |            |
-| 09 |            |          |           |            |           |           |           |            |           | [✓][09rb] |           |           |            |
+|    | asm        | c        | hs        | ijs        | jl        | js        | jy        | mma        | py        | rb        | rkt        | rs        | sh        | vim        |
+| -  | -          | -        | -         | -          | -         | -         | -         | -          | -         | -         | -          | -         | -         | -          |
+| 01 |            | [✓][01c] | [✓][01hs] |            |           | [✓][01js] |           | [✓][01mma] | [✓][01py] | [✓][01rb] |            |           |           |            |
+| 02 |            | [✓][02c] | [✓][02hs] |            |           |           |           | [✓][02mma] | [✓][02py] | [✓][02rb] |            |           |           |            |
+| 03 | [✓][03asm] |          | [✓][03hs] |            | [✓][03jl] |           |           |            |           | [✓][03rb] |            | [✓][03rs] |           |            |
+| 04 |            |          |           |            |           |           |           |            |           | [✓][04rb] |            |           |           |            |
+| 05 |            | [✓][05c] | [✓][05hs] |            |           |           | [✓][05jy] |            |           | [✓][05rb] |            |           | [✓][05sh] | [✓][05vim] |
+| 06 |            |          | [✓][06hs] | [✓][06ijs] |           |           |           |            |           | [✓][06rb] |            |           |           |            |
+| 07 |            |          |           |            |           |           |           |            |           | [✓][07rb] |            |           |           |            |
+| 08 |            |          | [✓][08hs] |            |           |           |           |            |           | [✓][08rb] |            |           |           |            |
+| 09 |            |          | [✓][09hs] |            |           |           |           |            |           | [✓][09rb] | [✓][09rkt] |           |           |            |
 
 how to run the programs:
 
@@ -51,4 +51,6 @@ note that everything expects to be run from the directory containing `input`
 [07rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/07/rb
 [08hs]:  https://github.com/tckmn/polyaoc-2020/tree/master/08/hs
 [08rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/08/rb
+[09hs]:  https://github.com/tckmn/polyaoc-2020/tree/master/09/hs
 [09rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/09/rb
+[09rkt]: https://github.com/tckmn/polyaoc-2020/tree/master/09/rkt
