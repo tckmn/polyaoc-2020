@@ -1,6 +1,6 @@
 #!/usr/bin/env julia
 
-input = sort(map(x->parse(Int, x), readlines("input")))
+input = sort!(parse.(Int, eachline("input")))
 pushfirst!(input, 0)    # well aren't you cool and different, julia
 push!(input, input[end]+3)
 
