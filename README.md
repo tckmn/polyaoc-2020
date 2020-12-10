@@ -11,7 +11,7 @@
 | 07 |            |          |           |            |           |           |           |            |           | [✓][07rb] |            |           |           |            |
 | 08 |            |          | [✓][08hs] |            |           |           |           |            |           | [✓][08rb] |            |           |           |            |
 | 09 |            |          | [✓][09hs] |            |           |           |           |            |           | [✓][09rb] | [✓][09rkt] |           |           |            |
-| 10 |            |          |           |            |           |           |           | [✓][10mma] |           | [✓][10rb] |            |           |           |            |
+| 10 |            |          |           |            | [✓][10jl] |           |           | [✓][10mma] |           | [✓][10rb] |            |           |           |            |
 
 how to run the programs:
 
@@ -55,5 +55,6 @@ note that everything expects to be run from the directory containing `input`
 [09hs]:  https://github.com/tckmn/polyaoc-2020/tree/master/09/hs
 [09rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/09/rb
 [09rkt]: https://github.com/tckmn/polyaoc-2020/tree/master/09/rkt
+[10jl]:  https://github.com/tckmn/polyaoc-2020/tree/master/10/jl
 [10mma]: https://github.com/tckmn/polyaoc-2020/tree/master/10/mma
 [10rb]:  https://github.com/tckmn/polyaoc-2020/tree/master/10/rb
